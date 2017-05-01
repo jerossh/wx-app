@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="list-item" wx:for="{{array}}">
+    <image style="width: 200rpx; height: 200rpx; background-color: #eeeeee;" mode="aspectFill" src="../../public/images/0.jpg"></image>
+    <!--<view style="flex-direction: column;"}>-->
+    <view class="info">
+      <text style="font-size: 36rpx;">{{item.name}}</text>
+      <view style="display: flex; justify-content: space-between;">
+         <text class="tag">{{item.tag}}</text> 
+         <text class="tag price">{{item.price}}元/月</text> 
+      </view>
+      <view style="padding-top: 8rpx; display: flex;align-items: center;">
+         <icon type="clear" size="12">{{item.tag}}</icon> 
+         <text class="adr">{{item.adr}}</text> 
+      </view>
+      <view class="item-list" style="padding-top: 20rpx;">
+         <text wx:for="{{item.tag2}}"  wx:for-item="j"  class="tag tag2">{{j}}</text> 
+      </view>
+    </view>
+  </view>
+</view>

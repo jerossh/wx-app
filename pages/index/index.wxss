@@ -1,0 +1,48 @@
+/**index.wxss**/
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ddd;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  /*padding-left: 20rpx;*/
+}
+
+.tag {
+  padding-top: 8rpx;
+  font-size: 27rpx;
+  color: #888;
+}
+
+.price {
+  color: #f93;
+}
+
+.adr {
+  font-size: 27rpx;
+  padding-left: 10rpx;
+  color: #888;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: row;
+  /*background-color: #aaa;*/
+}
+
+.tag2 {
+  font-size: 20rpx;
+  background-color: #ddd;
+  margin: 0 4rpx;
+  padding: 3rpx 8rpx;
+  border-radius: 2rpx;
+  color: #000;
+}
+
