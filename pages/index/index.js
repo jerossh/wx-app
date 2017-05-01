@@ -1,23 +1,9 @@
 //index.js
 //获取应用实例
-var app = getApp() // getApp 就是 根目录的 app.js
+const data = require('../../utils/data.js')
+const app = getApp() // getApp 就是 根目录的 app.js
 Page({
-  data: {
-    array: [{
-      name: '整租·海水宫酒店公寓·一居室',
-      tag: '套件·20m·南北',
-      price: '2800',
-      adr: '距离8号线联航站891米',
-      tag2: ['集中公寓', '保障', '付一压一']
-      
-    }, {
-      name: '整租·海水宫酒店公寓·一居室',
-      tag: '套件·20m·南北',
-      price: '2800',
-      adr: '距离8号线联航站891米',
-      tag2: ['集中公寓', '保障', '付一压一']
-    }]
-  },
+  data: data.indexData,
 
   //事件处理函数
   bindViewTap: function() { // 点击处理句柄
