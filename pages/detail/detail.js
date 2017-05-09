@@ -3,7 +3,7 @@
 const data = require('../../utils/data.js')
 const app = getApp() // getApp 就是 根目录的 app.js
 Page({
-  data: data.indexData,
+  data: { text: '测试详情页，添加一张地图看看'},
 
   //事件处理函数
   bindViewTap: function() { // 点击处理句柄

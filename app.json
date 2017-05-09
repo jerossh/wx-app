@@ -2,10 +2,11 @@
   "pages":[
     "pages/index/index",
     "pages/my/my",
+    "pages/detail/detail",
     "pages/logs/logs"
   ],
   "window":{
-    "navigationBarTitleText": "微信接口功能演示",
+    "navigationBarTitleText": "列表型小程序",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#eee",

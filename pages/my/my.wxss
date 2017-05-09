@@ -1,4 +1,9 @@
 /**index.wxss**/
+
+.certer-container {
+  display: flex;
+  justify-content: center;
+}
 .userinfo {
   display: flex;
   flex-direction: column;

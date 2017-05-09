@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="list-item" wx:for="{{array}}">
+  <view class="list-item" wx:for="{{array}}" bindtap="bindViewTap">
     <image style="width: 200rpx; height: 200rpx; background-color: #eeeeee;" mode="aspectFill" src="../../public/images/0.jpg"></image>
     <!--<view style="flex-direction: column;"}>-->
     <view class="info">
